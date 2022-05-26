@@ -3,7 +3,7 @@ import "./contato.css"
 
 export default function Contato() {
   return (
-    <div className='divMainContato'>
+    <div className='divMainContato' id="algoritmo">
       <div className='contatoTextos'>
         <h3>Ajude o algorítmo a ser mais certeiro</h3>
         <div className='divTexto'>

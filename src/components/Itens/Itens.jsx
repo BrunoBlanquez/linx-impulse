@@ -23,7 +23,7 @@ export default function Itens() {
   } 
 
   return (
-    <div className='divPrincipalItens'>
+    <div className='divPrincipalItens' id="itens">
       <div className="divisaoSuperior">
         <div className='divisao'></div>
         <div className="titulo">Sua Seleção Especial</div>

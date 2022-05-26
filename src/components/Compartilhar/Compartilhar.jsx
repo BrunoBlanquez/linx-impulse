@@ -3,7 +3,7 @@ import "./compartilhar.css"
 
 export default function Compartilhar() {
   return (
-    <div className='divCompart'>
+    <div className='divCompart' id="compartilhe">
       <div className="divisaoSuperior">
         <div className='divisao'></div>
         <div className="titulo">Compartilhe a novidade</div>

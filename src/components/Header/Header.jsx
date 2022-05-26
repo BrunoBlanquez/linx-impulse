@@ -11,9 +11,9 @@ export default function Header() {
       </div>
       <div className='divBtn'>
         <button className='botaoHeader'>Conheça a Linx</button>
-        <button className='botaoHeader'>Ajude o algorítmo</button>
-        <button className='botaoHeader'>Seus produtos</button>
-        <button className='botaoHeader'>Compartilhe</button>
+        <a href="#algoritmo"><button className='botaoHeader'>Ajude o algorítmo</button></a>
+        <a href="#itens"><button className='botaoHeader'>Seus produtos</button></a>
+       <a href="#compartilhe"> <button className='botaoHeader'>Compartilhe</button></a>
       </div>
     </div>
   )
