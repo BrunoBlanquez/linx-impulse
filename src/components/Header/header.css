@@ -1,0 +1,89 @@
+.divMain {
+  width: 100%;
+  height: 399px;
+  top: 0px;
+  left: 0px;
+  background: #707070 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px 65%);
+}
+
+.divTitulo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 69px;
+}
+
+.divTitulo h2 {
+  top: 69px;
+  left: 635px;
+  width: 227px;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 20px/24px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.divTitulo h1 {
+  top: 92px;
+  left: 571px;
+  width: 358px;
+  height: 48px;
+  text-align: center;
+  font: normal normal bold 40px/49px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.divTitulo h5 {
+  margin-top: 24px;
+  top: 164px;
+  left: 476px;
+  width: 548px;
+  height: 16px;
+  font-size: 14px;
+  text-align: center;
+  font: normal normal normal 14px/16px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.divBtn {
+  margin-top: 50px;
+  top: 230px;
+  left: 371px;
+  width: 769px;
+  height: 50px;
+  opacity: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.botaoHeader {
+  top: 230px;
+  left: 371px;
+  width: 160px;
+  height: 40px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 6px #00000029;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  opacity: 1;
+  cursor: pointer;
+
+  text-align: center;
+  font: normal normal normal 14px/16px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+}
