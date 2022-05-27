@@ -22,12 +22,11 @@
 .titulo {
   width: auto;
   height: 22px;
-  text-align: left;
+  text-align: center;
   font: normal normal bold 18px/16px Helvetica Neue;
   letter-spacing: 0px;
   color: #888888;
   opacity: 1;
-  flex-wrap: nowrap;
 }
 
 
@@ -55,4 +54,18 @@
 
 .card {
   margin-left: 40px;
+}
+
+@media only screen and (max-width: 844px) {
+  .divisaoSuperior {
+    width: 100%;
+    margin: 50px;
+    font: normal normal bold 18px/16px Helvetica Neue;
+  }
+
+  .divisao {
+    width: 100px;
+    position: relative;
+    top: 30%;
+  }
 }

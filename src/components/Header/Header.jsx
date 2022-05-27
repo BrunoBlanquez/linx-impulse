@@ -10,10 +10,10 @@ export default function Header() {
         <h5>Todos os produtos dessa lista foram selecionados a partir da sua navegação. Aproveite!</h5>
       </div>
       <div className='divBtn'>
-        <button className='botaoHeader'>Conheça a Linx</button>
+        <a href="#"><button className='botaoHeader'>Conheça a Linx</button></a>
         <a href="#algoritmo"><button className='botaoHeader'>Ajude o algorítmo</button></a>
         <a href="#itens"><button className='botaoHeader'>Seus produtos</button></a>
-       <a href="#compartilhe"> <button className='botaoHeader'>Compartilhe</button></a>
+       <a href="#compartilhe"><button className='botaoHeader'>Compartilhe</button></a>
       </div>
     </div>
   )

@@ -31,8 +31,6 @@
 
 .texto {
   margin-bottom: 25px;
-  top: 473px;
-  left: 290px;
   text-align: left;
   font: normal normal normal 12px/18px Helvetica Neue;
   letter-spacing: 0px;
@@ -54,7 +52,6 @@
   left: 870px;
   width: 340px;
   height: 61px;
-  /* UI Properties */
   opacity: 1;
 }
 
@@ -112,11 +109,27 @@
   opacity: 1;
   margin-top: 23px;
   cursor: pointer;
-
-  /* UI Properties */
   text-align: center;
   font: normal normal normal 16px/16px Helvetica Neue;
   letter-spacing: 0px;
   color: #888888;
   opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .divMainContato {
+    flex-direction: column;
+    width: 386px;
+    height: auto;
+    text-align: center;
+    margin: 0 16px;
+  }
+
+  .texto {
+    width: 360px;
+  }
+
+  .contatoTextos {
+    width: 386px;
+  }
 }
